@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contro Predictor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>TIP CALCULATOR</h1>
+        </div>
+        <div class="content">
+            <p> <label for="billAmt">BILL AMOUNT </label></p>
+            <p><input type="text" id="billAmt" placeholder="Enter the bill Amount"></p>
+            <p><label for="service">SERVICE EXPERIENCE</label></p>
+            <p><select name="service" id="service"></p>
+            <option value="select" selected hidden>SELECT</option>
+            <option value="0.20">EXCELLENT</option>
+            <option value="0.15">VERY GOOD</option>
+            <option value="0.10">GOOD</option>
+            <option value="0.05">POOR</option>
+            </select>
+            <p><label for="people">NUMBER OF PEOPLE</label></p>
+            <p><input type="text" id="people" placeholder="Enter the no of people here"></p>
+            <button class="btn">SUBMIT</button>
+        </div>
+        <div class="result">
+            <p>THE TIP AMOUNT IS : </p>
+            &#8377<span id="bill"></span>
+        </div>
+    </div>
+</body>
+
+</html>
